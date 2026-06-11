@@ -1,0 +1,13 @@
+[project]
+name = "weather-server-jayden"  # 반드시 고유한 이름으로 작성해야 함 
+version = "0.1.2"
+description = "MCP 날씨 서버 Example!"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.22.0",
+]
+
+[project.scripts]
+weather-server-jayden = "weather:main"
